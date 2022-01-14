@@ -44,7 +44,7 @@ while True:
     except Exception as e:
         print('에러내용 : ', e)
     finally:
-        #에러발생 여부와 상관없이 마지막에 무조건 실행하는 코드 블럭
+        # 에러발생 여부와 상관없이 마지막에 무조건 실행하는 코드 블럭
         if result !=None:
             print('선택한 동물은 %s입니다.' % result)
 

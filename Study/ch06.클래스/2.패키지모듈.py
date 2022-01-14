@@ -7,7 +7,7 @@
 모듈 : 파이썬 파일(확장자 py)
 """
 
-#from Study.Lib.calc import *
+# from Study.Lib.calc import *
 import Study.Lib.calc as c
 
 r1 = c.plus(1, 2)

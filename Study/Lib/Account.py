@@ -5,10 +5,10 @@ class Account:
         self.name = name
         self.balance = balance
 
-    def deposite(self):
+    def deposite(self, money):
         self.balance += money
 
-    def withdraw(self):
+    def withdraw(self, money):
         self.balance -= money
 
     def show(self):

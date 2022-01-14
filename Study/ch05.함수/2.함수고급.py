@@ -16,6 +16,7 @@ hello()
 def sum_and_multi(n1, n2):
     y1 = n1 + n2
     y2 = n1 * n2
+    return y1, y2
 
 r1, r2 = sum_and_multi(1, 2)
 r3, r4 = sum_and_multi(2, 3)

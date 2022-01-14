@@ -36,7 +36,7 @@ print('r3 : ', r3)
 def type2(dataset):
     tot = 0
     for date in dataset:
-        tot += dataset
+        tot += date
 
     print('dataset의 합 : ', tot)
 
