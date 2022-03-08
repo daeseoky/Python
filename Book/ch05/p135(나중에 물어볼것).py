@@ -18,6 +18,7 @@ def scattering_func(data):  # outur
         print(sum(diff))  # 차의 합
         var_val = sum(diff) / (len(dataset) - 1)
         return var_val
+
     # (4) 내부 함수 : 표준편차 반환
     def std_func(var):
         std_val = sqrt(var)
@@ -26,7 +27,7 @@ def scattering_func(data):  # outur
     return avg_func, var_func, std_func
 
 
-# (5) 내부 함수 호출
-print('평균 : ', avg())
-print('분산 : ', var(avg()))
-print('표준편차 : ', std(var(avg())))
+    # (5) 내부 함수 호출
+    print('평균 : ', avg())
+    print('분산 : ', var(avg()))
+    print('표준편차 : ', std(var(avg())))
