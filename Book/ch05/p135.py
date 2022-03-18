@@ -23,11 +23,14 @@ def scattering_func(data):  # outur
     def std_func(var):
         std_val = sqrt(var)
         return std_val
+
     # 함수 클로저 반환
     return avg_func, var_func, std_func
 
 
-    # (5) 내부 함수 호출
-    print('평균 : ', avg())
-    print('분산 : ', var(avg()))
-    print('표준편차 : ', std(var(avg())))
+avg, var, std= scattering_func(data)
+
+# (5) 내부 함수 호출
+print('평균 : ', avg())
+print('분산 : ', var(avg()))
+print('표준편차 : ', std(var(avg())))
